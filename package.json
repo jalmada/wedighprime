@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/jalmada/wedighprime/issues"
   },
-  "homepage": "https://github.com/jalmada/wedighprime#readme"
+  "homepage": "https://github.com/jalmada/wedighprime#readme",
+  "dependencies": {
+    "eslint": "^5.16.0"
+  }
 }
