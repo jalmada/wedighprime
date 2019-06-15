@@ -1,0 +1,24 @@
+{
+  "name": "wedighprime",
+  "version": "1.0.0",
+  "description": "A Game of sorts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jalmada/wedighprime.git"
+  },
+  "keywords": [
+    "game",
+    "cool",
+    "beans"
+  ],
+  "author": "Alberto Almada, Jose Almada",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jalmada/wedighprime/issues"
+  },
+  "homepage": "https://github.com/jalmada/wedighprime#readme"
+}
