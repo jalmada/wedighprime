@@ -7,4 +7,4 @@ const Poison = {
     multiplier: 1.1
 };
 
-export default Poison;
+module.exports = Poison;

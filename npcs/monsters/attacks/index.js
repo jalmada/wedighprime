@@ -1,11 +1,11 @@
 "use strict";
 
-import Bite from './bite';
-import Poison from './poison';
+const Bite = require('./bite');
+const Poison = require('./poison');
 
 const Attacks = {
     Bite: Bite,
     Poison: Poison
 };
 
-export default Attacks;
+module.exports = Attacks;

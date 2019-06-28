@@ -1,8 +1,8 @@
 "user strict";
 
-import PlayerTypes from './enums/playertypes';
-import Sex from './enums/sex';
-import Attacks from './attacks';
+const PlayerTypes = require('../enums/playertypes');
+const Sex = require('../enums/sex');
+const Attacks = require('../attacks');
 
 const Wizard = {
     name: "Medigh",
@@ -17,5 +17,4 @@ const Wizard = {
     attacks: [Attacks.Fire, Attacks.Ice],
     sex: Sex.Female
 };
-
-export default Wizard
+module.exports = Wizard

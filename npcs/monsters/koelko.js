@@ -1,11 +1,11 @@
 "user strict";
 
-import MosterTypes from './enums/monstertypes';
-import Attacks from './attacks';
+const MonsterTypes = require('./enums/monstertypes');
+const Attacks = require('./attacks');
 
 const Koelko = {
     name: "Roberto",
-    type: MosterTypes.BOSS,
+    type: MonsterTypes.BOSS,
     hp: 400,
     mp: 300,
     abilities: {
@@ -16,4 +16,4 @@ const Koelko = {
     attacks: [Attacks.Bite, Attacks.Poison]
 };
 
-export default Koelko
+module.exports = Koelko

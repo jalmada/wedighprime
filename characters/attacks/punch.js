@@ -7,4 +7,4 @@ const Punch = {
     multiplier: 1.8
 };
 
-export default Punch;
+module.exports = Punch;

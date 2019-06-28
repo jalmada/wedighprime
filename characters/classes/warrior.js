@@ -1,12 +1,12 @@
 "user strict";
 
-import PlayerTypes from './enums/playertypes';
-import Sex from './enums/sex';
-import Attacks from './attacks';
+const PlayerTypes = require('../enums/playertypes');
+const Sex = require('../enums/sex');
+const Attacks = require('../attacks');
 
 const Warrior = {
     name: "Wedigh",
-    type: PlayerTypes.Warrior,
+    type: PlayerTypes.WARRIOR,
     hp: 150,
     mp: 100,
     abilities: {
@@ -17,5 +17,4 @@ const Warrior = {
     attacks: [Attacks.Punch, Attacks.Slam],
     sex: Sex.Male
 };
-
-export default Warrior
+module.exports = Warrior

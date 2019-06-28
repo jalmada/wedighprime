@@ -7,4 +7,4 @@ const Slam = {
     multiplier: 2
 };
 
-export default Slam;
+module.exports = Slam;

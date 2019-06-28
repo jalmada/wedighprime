@@ -7,4 +7,4 @@ const Fire = {
     multiplier: 2
 };
 
-export default Fire;
+module.exports = Fire;

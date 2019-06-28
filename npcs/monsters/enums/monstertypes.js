@@ -5,4 +5,4 @@ const MonsterTypes = {
     MINION: minion
 };
 
-export default MonsterTypes
+module.exports = MonsterTypes

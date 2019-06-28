@@ -7,4 +7,4 @@ const Ice = {
     multiplier: 1.1
 };
 
-export default Ice;
+module.exports = Ice;

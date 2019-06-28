@@ -5,4 +5,4 @@ let Sex = {
     Male: 1
 };
 
-export default Sex;
+module.exports = Sex;

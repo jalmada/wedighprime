@@ -7,4 +7,4 @@ const Bite = {
     multiplier: 1
 };
 
-export default Bite;
+module.exports = Bite;
