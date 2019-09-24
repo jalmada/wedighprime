@@ -7,7 +7,7 @@ const Attacks = require('../attacks');
 const Wizard = {
     name: "Medigh",
     type: PlayerTypes.WIZARD,
-    hp: 100,
+    hp: 300,
     mp: 300,
     abilities: {
         strenght: 10,

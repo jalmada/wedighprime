@@ -7,7 +7,7 @@ const Attacks = require('../attacks');
 const Warrior = {
     name: "Wedigh",
     type: PlayerTypes.WARRIOR,
-    hp: 150,
+    hp: 350,
     mp: 100,
     abilities: {
         strenght: 70,

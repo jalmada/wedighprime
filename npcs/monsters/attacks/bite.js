@@ -1,7 +1,7 @@
 "use strict";
 
 const Bite = {
-    strenght: 10,
+    power: 10,
     hpcost: 0,
     mpcost: 0,
     multiplier: 1
